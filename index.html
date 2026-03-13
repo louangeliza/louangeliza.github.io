@@ -4,9 +4,63 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Liza's Blog</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Liza Writes</h1>
-  <p>Life, code, and everything in between.</p>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Liza Writes</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <section class="hero-text">
+      <h2>Life, code, and everything in between.</h2>
+      <p>
+        A small corner of the internet where I write about software,
+        growth, ideas, and the quiet chaos of figuring life out.
+      </p>
+      <a href="blog.html" class="btn">Read the blog</a>
+    </section>
+  </main>
+
+  <section class="featured">
+    <h3>Featured Posts</h3>
+
+    <div class="card-container">
+      <article class="card">
+        <h4>Why I Started This Blog</h4>
+        <p>
+          A beginning. A reason. A place to think in public.
+        </p>
+        <a href="#">Read more →</a>
+      </article>
+
+      <article class="card">
+        <h4>What Debugging Taught Me About Patience</h4>
+        <p>
+          Code has a way of exposing not just errors, but character.
+        </p>
+        <a href="#">Read more →</a>
+      </article>
+
+      <article class="card">
+        <h4>Learning in Public</h4>
+        <p>
+          Why sharing what you know—even imperfectly—still matters.
+        </p>
+        <a href="#">Read more →</a>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Liza Writes. Built with heart and curiosity.</p>
+  </footer>
 </body>
 </html>

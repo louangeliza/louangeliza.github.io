@@ -5,10 +5,23 @@
   }
   
   body {
-    font-family: Georgia, serif;
-    line-height: 1.6;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
     background: #f8f6f2;
     color: #222;
+  }
+  
+  .hero-text h2,
+  .post-preview h2,
+  .card h4 {
+    font-family: "Playfair Display", serif;
+  }
+  .post-cover img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 2rem;
   }
   
   header {

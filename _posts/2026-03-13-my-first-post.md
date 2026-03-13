@@ -2,6 +2,7 @@
 layout: post
 title: "Why I Started This Blog"
 date: 2026-03-13
+cover: /assets/images/start.jpg
 ---
 
 The internet is loud.

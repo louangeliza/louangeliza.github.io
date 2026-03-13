@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<main class="hero">
+  <section class="hero-text">
+    <h2>Life, code, and everything in between.</h2>
+    <p>
+      A small corner of the internet where I write about software,
+      growth, ideas, and the quiet chaos of figuring life out.
+    </p>
+    <a href="#posts" class="btn">Read the blog</a>
+  </section>
+</main>
+
+<section class="featured" id="posts">
+  <h3>Recent Posts</h3>
+
+  <div class="card-container">
+    {% for post in site.posts %}
+      <article class="card">
+        <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <a href="{{ post.url | relative_url }}">Read more →</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
